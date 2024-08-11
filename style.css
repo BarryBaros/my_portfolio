@@ -28,6 +28,11 @@ body {
     color: var(--text-color);
 }
 
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -58,4 +63,10 @@ body {
 .navbar a:hover, 
 .navbar a.active {
 color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 3.5rem;
+    color: var(--text-color);
+    display: none;
 }

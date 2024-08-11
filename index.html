@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baros Portofolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header design -->
     <header class="header">
         <a href="#" class="logo">Portofolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -19,5 +25,32 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
+
+    <!-- home section design -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Tim Barasa</h1>
+            <h3>And I'm a <span>Software Engineer</span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempora repudiandae eaque, accusamus iusto quis harum qui 
+                consequatur inventore modi fuga voluptatem reiciendis repellat 
+                ut eum animi cum earum adipisci similique!</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                </div>
+                <a href="#" class="btn"> Download Resume</a>
+        </div>
+
+        <div class="home-image">
+            <img src="images/Tim.jpg" alt="">
+        </div>
+     </section>
+
+    <!-- custom js -->
+     <script src="/index.js"></script>
 </body>
 </html>
