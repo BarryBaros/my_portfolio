@@ -46,6 +46,10 @@ section {
     z-index: 100;
 }
 
+.heade.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
@@ -360,4 +364,48 @@ box-shadow: 0 0 1rem var(--main-color);
 .footer-iconTop a i {
     font-size: 3rem;
     color: var(--second-bg-color);
+}
+
+/* BREAKPOINTS */
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3% 2rem;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
 }
