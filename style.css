@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -262,7 +262,7 @@ margin-bottom: 5rem;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
-    display: flex;
+    /* display: flex; */
 }
 
 .portfolio-box img {
@@ -271,7 +271,8 @@ margin-bottom: 5rem;
 }
 
 .portfolio-box img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    
 }
 
 .portfolio-box .portfolio-layer {
@@ -288,7 +289,7 @@ margin-bottom: 5rem;
     text-align: center;
     padding: 0 4rem;
     transform: translateY(100%);
-    transition: .5s ease;
+    transition: .3s ease;
 }
 
 .portfolio-box:hover .portfolio-layer {
@@ -326,7 +327,7 @@ transform: translateY(0);
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .contact form .input-box {
@@ -343,7 +344,7 @@ transform: translateY(0);
     color: var(--text-color);
     background: var(--second-bg-color);
     border-radius: .8rem;
-    margin: .7rem 0;
+    margin: .5rem 0;
 }
 
 .contact form .input-box input {
@@ -365,7 +366,7 @@ transform: translateY(0);
 }
 
 .footer-text p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .footer-iconTop a {
