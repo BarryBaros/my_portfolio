@@ -242,12 +242,13 @@ margin-bottom: 5rem;
     margin: 1rem 0 3rem;
 }
 
+/* Portfolio style  */
 .portfolio {
     background: var(--second-bg-color);
 }
 
 .portfolio h2 {
-    margin: 4rem;
+    margin-bottom: 1rem;
 }
 
 .portfolio-container {
@@ -262,7 +263,7 @@ margin-bottom: 5rem;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
-    /* display: flex; */
+    display: flex;
 }
 
 .portfolio-box img {
@@ -270,7 +271,7 @@ margin-bottom: 5rem;
     transition: .5s ease;
 }
 
-.portfolio-box img:hover {
+.portfolio-box:hover img {
     transform: scale(1.05);
     
 }
@@ -299,6 +300,7 @@ transform: translateY(0);
 .portfolio-layer h4 {
     font-size: 3rem;
 }
+
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
