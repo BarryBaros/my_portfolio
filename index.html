@@ -1,273 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baros Portofolio</title>
 
     <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- header design -->
     <header class="header">
-        <a href="#" class="logo">Portofolio</a>
+      <a href="#" class="logo">Portofolio</a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portofolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
     <!-- home section design -->
-     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's me</h3>
-            <h1>Tim Barasa</h1>
-            <h3>A <span class="multiple-text" ></span></h3>
-            <p>I’m a Software Engineer with a passion for creating innovative, efficient solutions 
-                and delivering compelling designs. I specialize in fullstack development, graphic design, 
-                and solving complex technical challenges.</p>
-                <div class="social-media">
-                    <a href="https://github.com/BarryBaros" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/barrybaros/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://www.facebook.com/tmoh2/" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://x.com/tmoh2" target="_blank"><i class='bx bxl-twitter' ></i></a>
-                </div>
-                <a href="files/Barasa.pdf" class="btn" download>Download Resume</a>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Tim Barasa</h1>
+        <h3>A <span class="multiple-text"></span></h3>
+        <p>
+          I’m a Software Engineer with a passion for creating innovative,
+          efficient solutions and delivering compelling designs. I specialize in
+          fullstack development, graphic design, and solving complex technical
+          challenges.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/BarryBaros" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/barrybaros/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/tmoh2/" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://x.com/tmoh2" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
         </div>
+        <a href="files/Barasa.pdf" class="btn" download>Download Resume</a>
+      </div>
 
-        <div class="home-image">
-            <img src="images/Tim2.jpg" alt="Tim-Baros">
-        </div>
-     </section>
-
-     <!-- about section design -->
-     <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/about.jpg" alt="">
-        </div>
-    
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Software Engineer - Graphic Designer - Transcriber</h3>
-            <p>
-                I am a Software Engineer with a strong foundation in coding, problem-solving, and web development from Moringa School.
-                <!-- Short summary, the first 2-3 lines -->
-                <span id="more-text" style="display: none; color: aliceblue;">
-                    Currently, I’m wrapping up my academic journey in software engineering, where I’ve gained a deep understanding of programming languages
-                    (HTML, CSS, JS/REACT, PYTHON/FLASK), software design principles, and real-world application development. My passion for technology drives 
-                    me to continuously learn and apply innovative solutions to complex challenges.
-    
-                    Before transitioning into software engineering, I have been working a System Administrator for a busy company here in Kenya. 
-                    I am also a Graphic Designer, with several years of experience in the design industry, I have honed my skills in visual communication, 
-                    branding, and digital design. My expertise spans across various design tools such as Adobe Creative Suite (Photoshop, Illustrator, InDesign).
-                </span>
-            </p>
-            <a href="javascript:void(0);" class="btn" id="read-more-btn">Read More</a>
-        </div>
-    </section> 
-
-      <!-- services section design -->
-      <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
-    
-        <div class="services-container">
-
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Software Engineering</h3>
-                <p>Specializing in custom web application development, API integration, and database management.
-                    <span id="more-text1" style="display: none; color: aliceblue;">
-                    <h4>Services Offered:</h4>
-                    Custom Web Application Development: I build responsive, dynamic websites and web applications using React.js, Flask, and Node.js.
-                    API Integration & Development: Designing and implementing secure, scalable RESTful APIs for smooth communication between services.
-                    Database Management & Optimization: Implementing database solutions with SQLite, MySQL, and SQLAlchemy for efficient data storage and retrieval.
-                    Version Control & Collaboration: Utilizing Git/GitHub for effective version control and collaboration on software development projects.
-                    Full Stack Development: From front-end UI/UX to back-end server logic, I offer comprehensive solutions for building and maintaining web applications.
-                    </span>
-                </p>
-
-                <a href="javascript:void(0);" class="btn read-more" data-target="more-text1">Read More</a>
-
-            </div>
-    
-            <div class="services-box">
-                <i class='bx bxs-paint'></i>
-                <h3>Graphic Design</h3>
-                <p>Offering comprehensive design services, including branding, print, and digital designs that align with your brand identity and target audience.
-
-                <span id="more-text2" style="display: none; color: aliceblue;">
-                    <h4>Services Offered:</h4>
-                    Logo & Branding Design: Creating memorable and cohesive branding solutions, including logos, brand guidelines, and identity systems.
-                    Print Design: Designing brochures, posters, flyers, and other promotional materials that effectively communicate your message.
-                    Digital Design: Providing custom graphics for websites, social media, email campaigns, and more using tools like Adobe Photoshop, Illustrator, and InDesign.
-                    UI/UX Design: Designing intuitive and engaging user interfaces for websites and mobile apps.
-                    Custom Illustrations & Visual Assets: Crafting unique visual content that aligns with your brand's identity and target audience.
-                                    </span>
-            </p>
-            <a href="javascript:void(0);" class="btn read-more" data-target="more-text1">Read More</a>
-            </div>
-    
-            <div class="services-box">
-                <i class='bx bxs-microphone'></i>
-                <h3>Transcription</h3>
-                <p>With over two years of experience in Loft 2.0 transcription, I provide accurate and detailed transcription services for meetings, 
-                    interviews, and more, ensuring high-quality results.
-                
-                    <span id="more-text3" style="display: none; color: aliceblue;">
-                        <h4>Services Offered:</h4>
-                    General Transcription: Providing precise, reliable transcription of meetings, interviews, podcasts, and more, utilizing Loft 2.0 transcription software.
-                    Audio-to-Text Conversion: Ensuring fast and accurate conversion of audio files into well-organized, error-free text.
-                    Transcription Quality Control: Proofreading and editing transcripts for grammar, spelling, and formatting, ensuring they meet industry standards.
-                    Custom Formatting & Language Requirements: Tailoring transcription outputs to specific client guidelines, including timestamps and speaker identification.
-.
-                    </span>
-                
-                </p>
-                <a href="javascript:void(0);" class="btn read-more" data-target="more-text1">Read More</a>
-            </div>
-        </div>
+      <div class="home-image">
+        <img src="images/Tim2.jpg" alt="Tim-Baros" />
+      </div>
     </section>
-    
 
-       <!-- portfolio section design  -->
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">My <span>Projects</span></h2>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/tim.jpg" alt="" />
+      </div>
 
-            <div class="portfolio-container">
-                <div class="portfolio-box">
-                    <img src="images/project2.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Image Search App</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Adipisci unde, officia tempore tenetur debitis
-                             temporibus amet enim quia commodi iste! Delectus
-                             distinctio id quasi quisquam iusto doloribus nesciunt
-                              dignissimos assumenda!</p>
-    
-                              <a href="https://barosimagesearch.netlify.app" target="_blank"><i class='bx bx-link-external' ></i></a>
-                    </div>
-                </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Engineer - Graphic Designer - Transcriber</h3>
+        <p>
+          I am a Software Engineer with a strong foundation in coding,
+          problem-solving, and web development from Moringa School.
+          <!-- Short summary, the first 2-3 lines -->
+          <span id="more-text" style="display: none; color: aliceblue">
+            Currently, I’m wrapping up my academic journey in software
+            engineering, where I’ve gained a deep understanding of programming
+            languages (HTML, CSS, JS/REACT, PYTHON/FLASK), software design
+            principles, and real-world application development. My passion for
+            technology drives me to continuously learn and apply innovative
+            solutions to complex challenges. Before transitioning into software
+            engineering, I have been working a System Administrator for a busy
+            company here in Kenya. I am also a Graphic Designer, with several
+            years of experience in the design industry, I have honed my skills
+            in visual communication, branding, and digital design. My expertise
+            spans across various design tools such as Adobe Creative Suite
+            (Photoshop, Illustrator, InDesign).
+          </span>
+        </p>
+        <a href="javascript:void(0);" class="btn" id="read-more-btn"
+          >Read More</a
+        >
+      </div>
+    </section>
 
-                <div class="portfolio-box">
-                    <img src="images/Votingapp.png" alt="">
-                    <div class="portfolio-layer">
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
 
-                        <h4>Voting App</h4>
-                        <p>MY VOTE MY VOICE is a voting app that allows voters to enter their ID numbers to view their details and vote for candidates. 
-                            The app will store voter information, display candidate details, and enable each voter to vote once for one or multiple candidates
-                        </p>
-    
-                              <a href="https://myvotemychoice.netlify.app" target="_blank"><i class='bx bx-link-external' ></i></a>
-                    </div>
-                </div>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Software Engineering</h3>
+          <p>
+            Specializing in custom web application development, API integration,
+            and database management.
+            <span id="more-text-services" style="display: none; color: aliceblue">
+              <h4>Services Offered:</h4>
+              Custom Web Application Development: I build responsive, dynamic
+              websites and web applications using React.js, Flask, and Node.js.
+              API Integration & Development: Designing and implementing secure,
+              scalable RESTful APIs for smooth communication between services.
+              Database Management & Optimization: Implementing database
+              solutions with SQLite, MySQL, and SQLAlchemy for efficient data
+              storage and retrieval. Version Control & Collaboration: Utilizing
+              Git/GitHub for effective version control and collaboration on
+              software development projects. Full Stack Development: From
+              front-end UI/UX to back-end server logic, I offer comprehensive
+              solutions for building and maintaining web applications.
+            </span>
+          </p>
 
-                <div class="portfolio-box">
-                    <img src="images/project1.jpg" alt="">
-                    <div class="portfolio-layer">
+          <a href="javascript:void(0);" class="btn" id="read-more-btn"
+            >Read More</a
+          >
+        </div>
 
-                        <h4>Web Design</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Adipisci unde, officia tempore tenetur debitis
-                             temporibus amet enim quia commodi iste! Delectus
-                             distinctio id quasi quisquam iusto doloribus nesciunt
-                              dignissimos assumenda!</p>
-    
-                              <a href="#"><i class='bx bx-link-external' ></i></a>
-                    </div>
-                </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Offering comprehensive design services, including branding, print,
+            and digital designs that align with your brand identity and target
+            audience.
 
-                <div class="portfolio-box">
-                    <img src="images/project4.jpg" alt="">
-                    <div class="portfolio-layer">
+            <span id="more-text2" style="display: none; color: aliceblue">
+              <h4>Services Offered:</h4>
+              Logo & Branding Design: Creating memorable and cohesive branding
+              solutions, including logos, brand guidelines, and identity
+              systems. Print Design: Designing brochures, posters, flyers, and
+              other promotional materials that effectively communicate your
+              message. Digital Design: Providing custom graphics for websites,
+              social media, email campaigns, and more using tools like Adobe
+              Photoshop, Illustrator, and InDesign. UI/UX Design: Designing
+              intuitive and engaging user interfaces for websites and mobile
+              apps. Custom Illustrations & Visual Assets: Crafting unique visual
+              content that aligns with your brand's identity and target
+              audience.
+            </span>
+          </p>
+          <a
+            href="javascript:void(0);"
+            class="btn read-more"
+            data-target="more-text1"
+            >Read More</a
+          >
+        </div>
 
-                        <h4>Web Design</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Adipisci unde, officia tempore tenetur debitis
-                             temporibus amet enim quia commodi iste! Delectus
-                             distinctio id quasi quisquam iusto doloribus nesciunt
-                              dignissimos assumenda!</p>
-    
-                              <a href="#"><i class='bx bx-link-external' ></i></a>
-                    </div>
-                </div>
+        <div class="services-box">
+          <i class="bx bxs-microphone"></i>
+          <h3>Transcription</h3>
+          <p>
+            With over two years of experience in Loft 2.0 transcription, I
+            provide accurate and detailed transcription services for meetings,
+            interviews, and more, ensuring high-quality results.
 
-                <div class="portfolio-box">
-                    <img src="images/project5.jpg" alt="">
-                    <div class="portfolio-layer">
+            <span id="more-text3" style="display: none; color: aliceblue">
+              <h4>Services Offered:</h4>
+              General Transcription: Providing precise, reliable transcription
+              of meetings, interviews, podcasts, and more, utilizing Loft 2.0
+              transcription software. Audio-to-Text Conversion: Ensuring fast
+              and accurate conversion of audio files into well-organized,
+              error-free text. Transcription Quality Control: Proofreading and
+              editing transcripts for grammar, spelling, and formatting,
+              ensuring they meet industry standards. Custom Formatting &
+              Language Requirements: Tailoring transcription outputs to specific
+              client guidelines, including timestamps and speaker
+              identification. .
+            </span>
+          </p>
+          <a
+            href="javascript:void(0);"
+            class="btn read-more"
+            data-target="more-text1"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
 
-                        <h4>Web Design</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Adipisci unde, officia tempore tenetur debitis
-                             temporibus amet enim quia commodi iste! Delectus
-                             distinctio id quasi quisquam iusto doloribus nesciunt
-                              dignissimos assumenda!</p>
-    
-                              <a href="#"><i class='bx bx-link-external' ></i></a>
-                    </div>
-                </div>
+    <!-- portfolio section design  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Projects</span></h2>
 
-                <div class="portfolio-box">
-                    <img src="images/project6.jpg" alt="">
-                    <div class="portfolio-layer">
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/project2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Image Search App</h4>
+            <p>
+              Image Search App This repository contains a web application that
+              allows users to search for images by entering keywords. The images
+              are then generated using the Unsplash API. 
+            </p>
 
-                        <h4>Web Design</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Adipisci unde, officia tempore tenetur debitis
-                             temporibus amet enim quia commodi iste! Delectus
-                             distinctio id quasi quisquam iusto doloribus nesciunt
-                              dignissimos assumenda!</p>
-    
-                              <a href="#"><i class='bx bx-link-external' ></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <a href="https://barosimagesearch.netlify.app" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
 
-        <!-- contact section disign -->
-         <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="portfolio-box">
+          <img src="images/Votingapp.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Voting App</h4>
+            <p>
+              My Vote My Voice: This is a web-based voting application built
+              with Flask (backend) and React (frontend). The app allows users to
+              sign up, log in, and vote for their preferred candidates. Each
+              voter can only vote once, ensuring fair election practices. The
+              application tracks voter details, candidates, and votes using a
+              relational database.
+            </p>
 
-            <form action="#">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
-                </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject">
-                </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </form>
-         </section>
+            <a href="https://myvotemychoice.netlify.app" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
 
-         <!-- footer design  -->
-          <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright &copy; 2024 by Tim-Baros | All Rights Reserved.</p>
-            </div>
+        <div class="portfolio-box">
+          <img src="images/Recipe.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Recipe App</h4>
+            <p>
+              The Food Recipe App is a React-based application that displays
+              detailed information about recipes, including their title, image,
+              preparation time, servings, dietary information (vegetarian or
+              vegan), and price per serving. This app fetches data from the
+              Spoonacular API.
+            </p>
 
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
-            </div>
-          </footer>    
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
 
-          <!-- scroll reveal -->
-          <script src="https://unpkg.com/scrollreveal"></script>
+       
 
-          <!-- typed js  -->
-          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      
+      </div>
+    </section>
+
+    <!-- contact section disign -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Tim-Baros | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <!-- custom js -->
-          <script src="/index.js"></script>
-</body>
+    <script src="/index.js"></script>
+  </body>
 </html>
